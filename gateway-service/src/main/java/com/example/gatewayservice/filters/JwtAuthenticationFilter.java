@@ -42,7 +42,7 @@ public class JwtAuthenticationFilter extends AbstractGatewayFilterFactory<JwtAut
 
             String token = authHeader.substring(7);
             try {
-                Claims claims = Jwts.parser()
+                Claims claims = Jwts.parserBuilder()
                         .setSigningKey(generateKey())
                         .build()
                         .parseClaimsJws(token)
