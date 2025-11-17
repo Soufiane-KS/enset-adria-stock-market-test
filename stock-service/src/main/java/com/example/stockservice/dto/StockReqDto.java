@@ -1,4 +1,4 @@
-package com.example.stock_service.dto;
+package com.example.stockservice.dto;
 
 import java.util.Date;
 

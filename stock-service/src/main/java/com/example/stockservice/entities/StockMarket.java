@@ -1,4 +1,4 @@
-package com.example.stock_service.entities;
+package com.example.stockservice.entities;
 
 import java.util.Date;
 
